@@ -1,0 +1,11 @@
+# Main repository for Debian bullseye
+deb http://ftp.eenet.ee/debian/ bullseye main contrib non-free
+deb-src http://ftp.eenet.ee/debian/ bullseye main contrib non-free
+
+# Updates repo for Debian bullseye
+deb http://ftp.eenet.ee/debian/ bullseye-updates main contrib non-free
+deb-src http://ftp.eenet.ee/debian/ bullseye-updates main contrib non-free
+
+# Security repo updates for Debian bullseye
+deb http://security.debian.org/ bullseye-security main contrib non-free
+deb-src http://security.debian.org/ bullseye-security main contrib non-free
